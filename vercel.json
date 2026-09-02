@@ -3,10 +3,11 @@
   "buildCommand": "cd client && npm install && npm run build",
   "outputDirectory": "client/dist",
   "framework": "vite",
+  "installCommand": "npm install && cd client && npm install",
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://seu-backend.onrender.com/api/$1"
+      "destination": "/api/$1"
     },
     {
       "source": "/(.*)",

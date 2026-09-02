@@ -1,0 +1,8 @@
+{
+  "name": "brasil-match-tracker-api",
+  "private": true,
+  "dependencies": {
+    "@vercel/node": "^3.0.0",
+    "axios": "^1.6.2"
+  }
+}

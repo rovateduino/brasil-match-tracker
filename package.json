@@ -1,0 +1,13 @@
+{
+  "name": "brasil-match-tracker",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0",
+    "axios": "^1.6.2"
+  }
+}
