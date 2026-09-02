@@ -1,0 +1,38 @@
+brasil-match-tracker/
+├── client/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.ts
+│   ├── tsconfig.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── .env
+│   └── src/
+│       ├── main.tsx
+│       ├── App.tsx
+│       ├── index.css
+│       ├── routes/
+│       │   ├── Dashboard.tsx
+│       │   └── Settings.tsx
+│       ├── components/
+│       │   ├── Layout.tsx
+│       │   ├── MatchCard.tsx
+│       │   ├── MatchList.tsx
+│       │   └── CompetitionFilter.tsx
+│       ├── api/
+│       │   └── client.ts
+│       ├── types/
+│       │   └── index.ts
+│       └── utils/
+│           └── helpers.ts
+├── server/
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── .env
+│   └── src/
+│       ├── index.ts
+│       ├── proxy.ts
+│       ├── cache.ts
+│       ├── types.ts
+│       └── logger.ts
+└── README.md
